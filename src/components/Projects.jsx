@@ -90,7 +90,7 @@ export default function Projects() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.3 + index * 0.1 }}
-              className="relative group bg-white dark:bg-[#0f172a] rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300"
+              className="relative group bg-white dark:bg-[#0f172a] rounded-2xl overflow-hidden  backdrop-blur border  hover:shadow-cyan-500/40 hover:scale-105 hover:border-cyan-400 transition-shadow duration-300"
             >
               <img
                 src={project.imageUrl}

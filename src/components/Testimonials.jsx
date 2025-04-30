@@ -10,12 +10,12 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-16 bg-[#0f172a]">
+    <section id="testimonials" className="py-16 px-8 bg-[#0f172a]">
       <div className="max-w-screen-lg mx-auto px-6 md:px-12 text-center">
         <motion.h2 className="text-3xl md:text-4xl font-extrabold text-white mb-8">
           What People Are Saying
         </motion.h2>
-        <div className="flex flex-wrap  justify-center hover:shadow-2xl gap-6">
+        <div className="flex flex-wrap  justify-center  gap-6">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}

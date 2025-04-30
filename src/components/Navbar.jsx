@@ -15,7 +15,7 @@ export default function Navbar({ darkLight, mode }) {
           transition={{ delay: 0.3 }}
           className="text-3xl font-extrabold bg-gradient-to-r from-[#00c6ff] to-[#0072ff] text-transparent bg-clip-text"
         >
-          DevUndercover
+       Prince Mishra
         </motion.h1>
 
         <div className="hidden md:flex items-center gap-8">

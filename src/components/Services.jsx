@@ -53,13 +53,13 @@ export default function Services() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 + index * 0.1 }}
-              className="bg-white hover:bg-blue-300  shadow-lg shadow-blue-500/50   p-6 rounded-2xl  hover:shadow-cyan-500/40 transition-shadow duration-300"
+              className="bg-white  hover:bg-blue-300  shadow-lg shadow-blue-500/50   p-6 rounded-2xl  hover:shadow-cyan-500/40 transition-shadow duration-300"
             >
               <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-2">
+              <h3 className="text-xl font-semibold dark:text-black text-gray-800  mb-2">
                 {service.title}
               </h3>
-              <p className="text-gray-600 dark:text-gray-300">
+              <p className="text-gray-600 dark:text-black">
                 {service.description}
               </p>
             </motion.div>

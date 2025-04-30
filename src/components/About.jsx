@@ -72,7 +72,7 @@ export default function About() {
         className="mt-16 text-center"
       >
         <h3 className="text-2xl md:text-3xl font-bold mb-4">
-          I don’t just write code — I build digital experiences.
+        I don't just build websites — I craft bold digital experiences that convert, engage, and grow your business.
         </h3>
         <p className="text-gray-300 max-w-2xl mx-auto mb-6">
           From crisp frontend UIs to scalable backend logic, I blend creativity and logic to solve problems and craft smooth user journeys. Let’s build something powerful together.

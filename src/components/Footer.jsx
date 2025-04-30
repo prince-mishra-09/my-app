@@ -2,12 +2,13 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white px-6 py-8 mt-16">
+    <footer className="bg-gray-900 text-white px-6 py-8 border-t-2 ">
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
         
         {/* Logo / Title */}
         <div>
-          <h2 className="text-2xl font-bold text-blue-400">DevUndercover</h2>
+          <h2 className="text-2xl font-bold text-blue-400">DevUndercover/Prince Mishra</h2>
           <p className="mt-2 text-sm text-gray-400">Building the web, one project at a time.</p>
         </div>
 
@@ -36,7 +37,7 @@ export default function Footer() {
 
       {/* Bottom Text */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} DevUndercover — All rights reserved.
+        © {new Date().getFullYear()} DevUndercover/PrinceMishra — All rights reserved.
       </div>
     </footer>
   );
