@@ -7,7 +7,7 @@ export default function Navbar({ darkLight, mode }) {
   const navItems = ['About', 'Projects', 'Services', 'Contact'];
 
   return (
-    <nav className="sticky top-0 z-50  bg-[#0f172a] shadow-md transition-colors duration-300">
+    <nav className="sticky top-0 z-50 w-full  bg-[#0f172a] shadow-md transition-colors duration-300">
       <div className="flex justify-between items-center px-6 py-4 md:px-8">
         <motion.h1
           initial={{ x: -50, opacity: 0 }}

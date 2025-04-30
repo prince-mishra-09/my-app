@@ -14,7 +14,7 @@ function App() {
   
 
   return (
-    <>
+    <div className="w-full">
       <Navbar />
       {/* <Test /> */}
       <Hero />
@@ -24,7 +24,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

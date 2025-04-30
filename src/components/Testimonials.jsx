@@ -15,11 +15,11 @@ export default function Testimonials() {
         <motion.h2 className="text-3xl md:text-4xl font-extrabold text-white mb-8">
           What People Are Saying
         </motion.h2>
-        <div className="flex flex-wrap justify-center hover:shadow-2xl gap-6">
+        <div className="flex flex-wrap  justify-center hover:shadow-2xl gap-6">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
-              className="w-full sm:w-80 bg-[#1e293b] rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden"
+              className="w-full   delay-150  ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 sm:w-80 bg-[#1e293b] rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 + i * 0.2 }}
