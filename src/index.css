@@ -1,0 +1,18 @@
+/* index.css */
+/* src/index.css */
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components; */
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+:root {
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
