@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export default function Navbar({ darkLight, mode }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const navItems = ['About', 'Projects', 'Skills', 'Contact'];
+  const navItems = ['About', 'Projects', 'Services', 'Contact'];
 
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-[#0f172a] shadow-md transition-colors duration-300">
