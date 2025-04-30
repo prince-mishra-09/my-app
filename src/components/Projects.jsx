@@ -6,7 +6,7 @@ const projectsData = [
   {
     title: 'Word Formatter',
     description: 'A simple tool for formatting texts, sentences, paras with darl/light feature.',
-    imageUrl: 'my-app/src/images/word.png',
+    imageUrl: '/images/word.png',
     techStack: ['React', 'Tailwind', 'JS'],
     liveLink: 'https://word-formater-react1.vercel.app/',
     details:"A smart utility tool built in Vanilla JavaScript that allows users to format and manipulate text in real-time — including case conversion, character count, word count, and more.Clean, interactive, and ideal to demonstrate DOM manipulation, form control, and state handling without frameworks."
@@ -14,7 +14,7 @@ const projectsData = [
   {
     title: 'Spotify Landing Page',
     description: 'Cloning simple and modern UI design of spotify landing page.',
-    imageUrl: 'my-app/src/images/image.png',
+    imageUrl: '/images/image.png',
     techStack: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://prince-mishra-09.github.io/spotify_landing_page/',
     details:"A pixel-perfect clone of Spotify’s homepage created using HTML, CSS, and JavaScript, fully responsive and visually engaging.This project reflects strong skills in UI/UX design, layout reproduction, flex/grid mastery, and mobile-first styling.Ideal to showcase attention to design detail and frontend precision."
@@ -22,7 +22,7 @@ const projectsData = [
   {
     title: 'Hisaab Kitaab',
     description: 'Full-stack expense tracker with secure authentication & analytics dashboard.',
-    imageUrl: 'my-app/src/images/hisaab.png',
+    imageUrl: '/images/hisaab.png',
     techStack: ['React', 'Node.js', 'MongoDB'],
     liveLink: 'https://hisaabkitaab-3ppc.onrender.com/',
     details:"A full-stack daily expense and ledger management app built with Node.js, Express, MongoDB, and EJS, featuring secure user authentication, OTP-based password reset via email, and a daily record system saved with timestamps.Users can log, view, and manage their transactions easily — making it ideal for shopkeepers, small businesses, or personal finance tracking. ✨ Built with security, real-time data handling, and a clean, responsive UI."
@@ -30,7 +30,7 @@ const projectsData = [
   {
     title: 'Hotel Booking UI',
     description: 'Responsive hotel booking interface with interactive calendar and map view.',
-    imageUrl: 'my-app/src/images/hotel.png',
+    imageUrl: '/images/hotel.png',
     techStack: ['HTML', 'CSS', 'Bootstrap'],
     liveLink: 'https://prince-mishra-09.github.io/PremiumHotel/',
     details:"A sleek and professional hotel booking frontend UI designed to mirror real-world hotel websites.Built with modern UI/UX principles, this project demonstrates skills in creating multi-page layouts, booking sections, responsive navigation, and elegant content presentation.Perfect for showcasing frontend architecture and component-based thinking."
@@ -38,7 +38,7 @@ const projectsData = [
   {
     title: 'DevUndercover Portfolio',
     description: 'My own portfolio with dark/light mode, animations, and responsive design.',
-    imageUrl: 'my-app/src/images/portfolio.png',
+    imageUrl: '/images/portfolio.png',
     techStack: ['Vite', 'React', 'Tailwind'],
     liveLink: 'https://devundercover.example.com',
     details:"A modern, interactive developer portfolio showcasing my projects, skills, and journey as a web developer.Designed with a focus on clean aesthetics, dark/light mode support, smooth animations (using Framer Motion), and responsive design.Acts as a live demonstration of my frontend capabilities and design sense."
