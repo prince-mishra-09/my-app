@@ -19,7 +19,7 @@ export default function Contact() {
     };
 
     try {
-      const res = await fetch('/api/send-email', {
+      const res = await fetch('/pages/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="min-h-screen px-6 py-12 bg-gradient-to-b from-blue-50 to-white dark:from-[#1e293b] dark:to-[#0f172a] transition-colors duration-300">
-      <div className="max-w-xl mx-auto relative">
+      <div className="max-w-xl mt-5 mx-auto relative">
         <h2 className="text-4xl font-bold text-center mb-8 text-blue-700 dark:text-white">Contact Me</h2>
 
         <form ref={formRef} onSubmit={handleSubmit} className="space-y-6 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-lg">

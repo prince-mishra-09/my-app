@@ -10,16 +10,16 @@ export default function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-16 bg-white dark:bg-[#0f172a]">
+    <section id="testimonials" className="py-16 bg-[#0f172a]">
       <div className="max-w-screen-lg mx-auto px-6 md:px-12 text-center">
-        <motion.h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-8">
+        <motion.h2 className="text-3xl md:text-4xl font-extrabold text-white mb-8">
           What People Are Saying
         </motion.h2>
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="flex flex-wrap justify-center hover:shadow-2xl gap-6">
           {testimonials.map((t, i) => (
             <motion.div
               key={i}
-              className="w-full sm:w-80 bg-gray-100 dark:bg-[#1e293b] rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden"
+              className="w-full sm:w-80 bg-[#1e293b] rounded-xl p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 relative overflow-hidden"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 + i * 0.2 }}
@@ -28,9 +28,9 @@ export default function Testimonials() {
                 <img src={t.image} alt={t.name} className="w-16 h-16 mt-6 rounded-full border-4 border-white dark:border-gray-900 object-cover shadow-md" />
               </div>
               <div className="mt-12">
-                <p className="text-gray-800 dark:text-gray-100 italic mb-4">“{t.text}”</p>
-                <h4 className="text-lg font-semibold text-gray-900 dark:text-white">{t.name}</h4>
-                <span className="text-sm text-gray-600 dark:text-gray-300">{t.role}</span>
+                <p className="text-gray-100 italic mb-4">“{t.text}”</p>
+                <h4 className="text-lg font-semibold text-white">{t.name}</h4>
+                <span className="text-sm text-gray-300">{t.role}</span>
               </div>
             </motion.div>
           ))}

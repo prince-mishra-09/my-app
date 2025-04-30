@@ -11,31 +11,11 @@ import './App.css';
 // import Test from './components/Test';
 
 function App() {
-  const [mode, setMode] = useState('light');
-
-  const darkLight = () => {
-    const newMode = mode === 'dark' ? 'light' : 'dark';
-    setMode(newMode);
-
-    // Tailwind dark mode toggle by class on HTML
-    const root = window.document.documentElement;
-    if (newMode === 'dark') {
-      root.classList.add('dark');
-    } else {
-      root.classList.remove('dark');
-    }
-  };
-
-  useEffect(() => {
-    // Ensure the mode persists on first load
-    if (mode === 'dark') {
-      document.documentElement.classList.add('dark');
-    }
-  }, []);
+  
 
   return (
-    <div className="bg-white text-black dark:bg-[#0f172a] dark:text-white transition-colors duration-500">
-      <Navbar darkLight={darkLight} mode={mode} />
+    <>
+      <Navbar />
       {/* <Test /> */}
       <Hero />
       <Projects />
@@ -44,7 +24,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }
 
