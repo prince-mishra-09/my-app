@@ -5,7 +5,7 @@ import { SiTailwindcss, SiJavascript, SiMysql, SiBootstrap, SiGithub, SiExpress,
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen py-12 px-6 bg-gradient-to-b from-white to-blue-50 dark:from-[#0f172a] dark:to-[#1e293b] transition-colors duration-300">
+    <section id="about" className="min-h-screen py-12  px-6 bg-gradient-to-b from-white to-blue-50 dark:from-[#0f172a] dark:to-[#1e293b] transition-colors duration-300">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
