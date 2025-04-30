@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Testimonials() {
   const testimonials = [
-    { name: 'Utkarsh', role: 'Student', text: 'Exceeded expectations with a stunning, interactive site!', image: '/src/images/utkarsh.jpg' },
-    { name: 'Shubham', role: 'Musician', text: 'Professional, creative, and timely delivery.', image: '/src/images/shubham.jpg' },
-    { name: 'Yogesh', role: 'Youtuber', text: 'Transformed ideas into a polished product!', image: '/src/images/yogesh.jpg' },
-    { name: 'Hemraj', role: 'MERN Developer', text: 'Transformed ideas into a polished product!', image: '/src/images/hemraj.jpg' }
+    { name: 'Utkarsh', role: 'Student', text: 'Exceeded expectations with a stunning, interactive site!', image: '/images/utkarsh.jpg' },
+    { name: 'Shubham', role: 'Musician', text: 'Professional, creative, and timely delivery.', image: '/images/shubham.jpg' },
+    { name: 'Yogesh', role: 'Youtuber', text: 'Transformed ideas into a polished product!', image: '/images/yogesh.jpg' },
+    { name: 'Hemraj', role: 'MERN Developer', text: 'Transformed ideas into a polished product!', image: '/images/hemraj.jpg' }
   ];
 
   return (
